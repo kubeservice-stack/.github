@@ -1,8 +1,8 @@
 name: Pull Request Stats
 
 on:
-  pull_request:
-    types: [opened]
+  schedule:
+    - cron: '12 1 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run pull request stats
+        id: prstats
         uses: flowwer-dev/pull-request-stats@v2.9.0
         with:
           token: ${{ secrets.ADD_A_PERSONAL_ACCESS_TOKEN }}
@@ -18,3 +19,16 @@ jobs:
           charts: false
           disable-links: true
           sort-by: 'COMMENTS'
+      - run: |
+          cat << EOF
+          result: ${{ steps.prstats.outputs.data }}
+          EOF
+      - name: Modify README.md
+        uses: jaywcjlove/github-action-modify-file-content@v1.4.4
+        with:
+          path: profile/README.md
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            ${{steps.prstats.outputs.data}}
+          openDelimiter: "<!--REVIEWS-->"
+          closeDelimiter: "<!--REVIEWS-END-->"
