@@ -1,4 +1,4 @@
-Name: Log @kubeservice organization statistics
+name: Log @kubeservice organization statistics
 on:
   schedule:
     # https://crontab.guru/every-day
