@@ -15,5 +15,4 @@
 |🕑︎closed pull requests| 2|
 |🔥merged pull requests| 62|<!--GAMFC-END-->
 
-## review情况
 <!--REVIEWS--><!--REVIEWS-END-->
