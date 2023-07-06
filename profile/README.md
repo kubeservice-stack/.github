@@ -16,5 +16,4 @@
 |🔥merged pull requests| 62|<!--GAMFC-END-->
 
 ## review情况
-<!--REVIEWS-->
-<!--REVIEWS-END-->
+<!--REVIEWS-->$GITHUB_STEP_SUMMARY<!--REVIEWS-END-->
