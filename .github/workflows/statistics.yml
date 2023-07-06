@@ -1,8 +1,9 @@
 name: Log @kubeservice organization statistics
+
 on:
   schedule:
-    # https://crontab.guru/every-day
-    - cron: "0 0 * * *"
+    - cron: '0 1 * * *'
+  workflow_dispatch:
 
 jobs:
   Stats:
