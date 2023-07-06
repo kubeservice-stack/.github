@@ -25,7 +25,7 @@ jobs:
           path: profile/README.md
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
-            本周社区更新情况
+            本周社区更新情况: 
             | 条目 | 活跃情况 |
             | :-- | :--: |
             |🐱‍open issues| ${{ fromJson(steps.stats.outputs.data).openIssues }} |
