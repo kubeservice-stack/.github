@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  logOctokitStats:
+  Stats:
     runs-on: ubuntu-latest
     steps:
       - uses: gr2m/org-stats-action@v1.0.3
