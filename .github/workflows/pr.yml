@@ -1,0 +1,20 @@
+name: Pull Request Stats
+
+on:
+  pull_request:
+    types: [opened]
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run pull request stats
+        uses: flowwer-dev/pull-request-stats@v2.9.0
+        with:
+          token: ${{ secrets.ADD_A_PERSONAL_ACCESS_TOKEN }}
+          organization: 'kubeservice-stack'
+          period: 7
+          charts: false
+          disable-links: true
+          sort-by: 'COMMENTS'
