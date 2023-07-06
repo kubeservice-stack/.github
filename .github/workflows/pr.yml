@@ -21,7 +21,7 @@ jobs:
           sort-by: 'COMMENTS'
       - run: |
           cat << EOF
-          result: ${{ steps.prstats.outputs.data }}
+          result: ${{GITHUB_STEP_SUMMARY}}
           EOF
       - name: Modify README.md
         uses: jaywcjlove/github-action-modify-file-content@v1.4.4
@@ -29,6 +29,6 @@ jobs:
           path: profile/README.md
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
-            ${{steps.prstats.outputs.data}}
+            ${{GITHUB_STEP_SUMMARY}}
           openDelimiter: "<!--REVIEWS-->"
           closeDelimiter: "<!--REVIEWS-END-->"
