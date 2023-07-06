@@ -22,13 +22,13 @@ jobs:
       - name: Modify README.md
         uses: jaywcjlove/github-action-modify-file-content@v1.4.4
         with:
-          path: .github/profile/README.md
+          path: .profile/README.md
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
-            "open issues": ${{ fromJson(steps.stats.outputs.data).openIssues }}
-            "closed issues": ${{ fromJson(steps.stats.outputs.data).closedIssues }}
-            "open pull requests": ${{ fromJson(steps.stats.outputs.data).openPullRequests }}
-            "closed pull requests": ${{ fromJson(steps.stats.outputs.data).closedPullRequests }}
-            "merged pull requests": ${{ fromJson(steps.stats.outputs.data).mergedPullRequests }}
+            🐱‍open issues: ${{ fromJson(steps.stats.outputs.data).openIssues }}
+            💻closed issues: ${{ fromJson(steps.stats.outputs.data).closedIssues }}
+            💬open pull requests: ${{ fromJson(steps.stats.outputs.data).openPullRequests }}
+            🕑︎closed pull requests: ${{ fromJson(steps.stats.outputs.data).closedPullRequests }}
+            🔥merged pull requests: ${{ fromJson(steps.stats.outputs.data).mergedPullRequests }}
           
 
