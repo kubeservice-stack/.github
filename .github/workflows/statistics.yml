@@ -25,7 +25,6 @@ jobs:
           path: profile/README.md
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
-            \n
             | 条目 | 活跃情况 |
             | :-- | :--: |
             |🐱‍open issues| ${{ fromJson(steps.stats.outputs.data).openIssues }} |
@@ -33,4 +32,3 @@ jobs:
             |💬open pull requests| ${{ fromJson(steps.stats.outputs.data).openPullRequests }} |
             |🕑︎closed pull requests| ${{ fromJson(steps.stats.outputs.data).closedPullRequests }}|
             |🔥merged pull requests| ${{ fromJson(steps.stats.outputs.data).mergedPullRequests }}|
-            \n
