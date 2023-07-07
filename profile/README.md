@@ -4,6 +4,7 @@
 
 ## 最新消息
 - [社区最新新闻](https://stack.kubeservice.cn/blog/news/)
+- [社区wiki](https://stack.kubeservice.cn/docs/)
 
 ## 活跃情况
 <!--GAMFC-->本周社区更新情况: 
