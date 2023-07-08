@@ -11,9 +11,9 @@
 | 条目 | 活跃情况 |
 | :-- | :--: |
 |🐱‍open issues| 8 |
-|💻closed issues| 10 |
+|💻closed issues| 11 |
 |💬open pull requests| 3 |
 |🕑︎closed pull requests| 3|
-|🔥merged pull requests| 62|<!--GAMFC-END-->
+|🔥merged pull requests| 64|<!--GAMFC-END-->
 
 <!--REVIEWS--><!--REVIEWS-END-->
