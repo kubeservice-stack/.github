@@ -3,6 +3,7 @@
 ![](https://komarev.com/ghpvc/?username=kubeservice-stack)
 
 ## 公告
+- **[社区公告申明](https://stack.kubeservice.cn/blog/2023/07/12/%E5%A3%B0%E6%98%8E%E5%85%AC%E5%91%8A/)**
 
 ## 最新消息
 - [社区最新新闻](https://stack.kubeservice.cn/blog/news/)
