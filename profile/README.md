@@ -5,6 +5,10 @@
 ## 公告
 - **[社区公告申明](https://stack.kubeservice.cn/blog/2023/07/12/%E5%A3%B0%E6%98%8E%E5%85%AC%E5%91%8A/)**
 
+## 社区CLA要求
+- [English CLA](https://github.com/kubeservice-stack/cla/blob/master/KubeserviceStack_Open_Source_Individual_CLA.md)
+- [中文 CLA](https://github.com/kubeservice-stack/cla/blob/master/KubeserviceStack_Open_Source_Individual_CLA_cn.md)
+
 ## 最新消息
 - [社区最新新闻](https://stack.kubeservice.cn/blog/news/)
 - [社区wiki](https://stack.kubeservice.cn/docs/)
