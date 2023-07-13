@@ -2,6 +2,8 @@
 
 ![](https://komarev.com/ghpvc/?username=kubeservice-stack)
 
+## 公告
+
 ## 最新消息
 - [社区最新新闻](https://stack.kubeservice.cn/blog/news/)
 - [社区wiki](https://stack.kubeservice.cn/docs/)
