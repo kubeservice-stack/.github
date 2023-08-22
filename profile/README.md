@@ -17,7 +17,7 @@
 <!--GAMFC-->本月社区更新情况: 
 | 条目 | 活跃情况 |
 | :-- | :--: |
-|🐱‍open issues| 8 |
+|🐱‍open issues| 9 |
 |💻closed issues| 13 |
 |💬open pull requests| 4 |
 |🕑︎closed pull requests| 6|
