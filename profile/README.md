@@ -17,10 +17,10 @@
 <!--GAMFC-->本月社区更新情况: 
 | 条目 | 活跃情况 |
 | :-- | :--: |
-|🐱‍open issues| 9 |
-|💻closed issues| 13 |
+|🐱‍open issues| 8 |
+|💻closed issues| 14 |
 |💬open pull requests| 5 |
-|🕑︎closed pull requests| 6|
-|🔥merged pull requests| 83|<!--GAMFC-END-->
+|🕑︎closed pull requests| 7|
+|🔥merged pull requests| 84|<!--GAMFC-END-->
 
 <!--REVIEWS--><!--REVIEWS-END-->
