@@ -19,8 +19,8 @@
 | :-- | :--: |
 |🐱‍open issues| 8 |
 |💻closed issues| 14 |
-|💬open pull requests| 5 |
+|💬open pull requests| 4 |
 |🕑︎closed pull requests| 7|
-|🔥merged pull requests| 84|<!--GAMFC-END-->
+|🔥merged pull requests| 85|<!--GAMFC-END-->
 
 <!--REVIEWS--><!--REVIEWS-END-->
