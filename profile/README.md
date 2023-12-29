@@ -1,6 +1,7 @@
 # Kubeservice-stack
 
 ![](https://komarev.com/ghpvc/?username=kubeservice-stack)
+[![CNCF Landscape](https://img.shields.io/badge/CNCF%20Landscape-5699C6)](https://cncf.landscape2.io/?item=platform--certified-kubernetes-distribution--kubeservice-stack)
 
 ## 公告
 - **[社区公告申明](https://stack.kubeservice.cn/blog/2023/07/12/%E5%A3%B0%E6%98%8E%E5%85%AC%E5%91%8A/)**
